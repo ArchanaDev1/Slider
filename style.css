@@ -1,0 +1,36 @@
+/* This is used for give to all the page style */
+*
+   { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* This is used to give the style of the main conatiner */
+main{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0px 0px 3px gray;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    transition: transform 3s ease;
+    position: absolute;
+
+}
+/* This is used to style the buttons like prev,next,autoslide */
+.nav{
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.nav button{
+    font-size: 15px;
+    padding: 5px;
+}
